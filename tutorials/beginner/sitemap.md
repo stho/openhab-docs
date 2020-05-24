@@ -84,7 +84,7 @@ To see the status of the wallplug, you have to add it to default.items too. Firs
 Then we add the item to default.items, this is what it looks like afterwards:
 
 ```java
-Switch Presence_Mobile_John "John's Mobile" <network> { channel="network:device:192_168_1_103:online" }
+Switch Presence_Mobile_John "John's Mobile" <network> { channel="network:pingdevice:192_168_1_103:online" }
 
 Switch Wallplug_FF_LR_TV "Wallplug TV" <poweroutlet> { channel="zwave:device:bb4d2b80:node30:switch_binary" }
 ```
